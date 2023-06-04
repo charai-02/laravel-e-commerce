@@ -1,0 +1,162 @@
+
+.carousel .carousel-item .carousel-control-prev .carousel-control-next{
+    height:600px;
+    width: 100%;
+    max-height: 600px;
+}
+.item img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 600px;
+}
+.s{
+    margin-top:20px;
+    margin-left:0px;
+}
+.card{
+    display:flex;
+    flex-direction:row;
+}
+/* Label{
+    visibility:hidden;
+} */
+.list-sp{
+margin:10px;
+}
+.sm-line{
+margin-right:40%;
+color: hsl(22, 98%, 49%);
+margin-top:8px;
+}
+
+/*img & icons
+
+.img-hiw{
+    margin:15px;
+    width:150px;
+    height:125px;
+}*/
+
+.productpng{
+    transition: all 1s;
+    cursor:pointer;
+}
+.productpng:hover{
+transform: rotate(20deg );
+width:100%;
+margin:0;
+padding:0px;
+}
+
+
+/*button*/
+.cta-btn , .fcta-btn{
+    background-color:#FFBF9B;
+    color:black;
+    border-radius:8px;
+    border:NONE;
+    margin:10px;
+    padding:10px;
+    padding-right:5px;
+    padding-left:5px;
+    width:180px;
+}
+
+.cta-btn:hover , .fcta-btn:hover{
+    color:#FFBF9B;
+    background-color:rgba(0, 0, 0, 0.6);
+   
+    }
+.btnform{
+    margin-top:20px;
+}
+
+.btn{
+    margin-top:20px;
+}
+/*Containers*/
+
+.pd-container{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    font-family: 'Oswald', sans-serif;
+    margin-top:30px;
+  }
+  
+  .form{
+    display: flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:center;
+    padding: 20px;
+}
+/* quantity */
+
+.quantity{
+  width:50px;
+}
+
+
+.pst{
+    position:absolute;
+    left:50%;
+    top:0%;
+   
+}
+/*card-shopping*/
+.card-shopping{
+    display:flex;
+    flex-direction:column;
+    flex:auto 20px 20px;
+    justify-content: center;
+}
+
+/*Wrappers*/
+.wrapper {
+    margin-right: auto; /* 1 */
+    margin-left:  auto; /* 1 */
+  
+    max-width: 1000px; /* 2 */
+  
+    padding-right: 10px; /* 3 */
+    padding-left:  10px; /* 3 */
+  }
+
+  .Quantity-wrapper{
+    background-color:rgb(59, 56, 56);
+    padding:10px;
+    margin:10px;
+     border-radius: 5px;
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    width:100%;
+  }
+   .Quantity-wrapper SPAN{
+    font-size:16px;
+    color:white;
+    cursor:pointer;
+    width:100%;
+    text-align: center;
+   }
+  .Quantity-wrapper span.num{
+   border-right: 1px solid white;
+   border-left:1px solid white;
+   text-align:center;
+   pointer-events: none;
+  }
+  
+/*media-queries*/
+
+@media(width<992px){
+    .search{
+        display:none;
+    }
+    .input-search , .input-group{
+        display: none;
+        visibility: hidden;
+    }
+}

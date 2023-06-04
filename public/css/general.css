@@ -1,0 +1,24 @@
+body{
+    padding:0px;
+    position: relative;
+    margin:0px;
+    margin-right:0px !important;
+    margin-left:0px !important;
+}
+
+h1 , h6 ,h3, h4,h2, h5, p, .text, a{
+    margin:0px;
+    padding:0px;
+    margin-bottom:0px;
+    font-family: 'Changa', sans-serif;
+}
+
+.accordion-button::after {
+    margin-left:0!important;
+    margin-right:auto;
+}
+
+  a{
+    text-decoration: none;
+    color:black;
+}
